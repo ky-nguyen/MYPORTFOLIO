@@ -1,0 +1,84 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.navigation-bar{
+    background-color: #1F2428;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.hero{
+    background-color: #1F2428;
+    height: 100vh ;
+    color: #fff;
+}
+
+
+#profile_pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    /* gap: 2em */
+}
+
+.hero--content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 3em;
+
+}
+
+.hero--content--intro{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.intro--name{
+    font-size: 100px;
+    letter-spacing: .1em;
+    font-weight: 700;
+}
+
+.hero--content--subsection{
+    color: #fff;
+}
+
+.description{
+    text-align: center;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.project--wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.project--column{
+}
+
+.project--thumbnail{
+    width: 100%;
+}
+
+.project--body{
+    background-color: #fff;
+    padding: 2em
+}
+
+
+
+
